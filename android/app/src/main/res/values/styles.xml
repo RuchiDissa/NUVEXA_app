@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Android startup theme -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Plain dark background while Flutter starts -->
+        <item name="android:windowBackground">@color/launch_background</item>
+    </style>
+
+    <!-- Theme used after Flutter starts -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">#020617</item>
+    </style>
+
+</resources>
